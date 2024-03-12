@@ -1,0 +1,21 @@
+/*Creaters style elements the navigation bar at top of site*/
+.topNav {
+    background-color: #F2D2BD;
+    text-align: left;
+    color: #000000;
+}
+
+
+/*Creates style elements for items in the navigation bar*/
+.topNavBarItem {
+    color: #000000;
+    display: inline;
+    text-decoration: none;
+}
+
+/*Changes styling for links so that they inherit properties from parent*/
+a:link, a:visited{
+    text-decoration: inherit;
+    color: inherit;
+}
+
